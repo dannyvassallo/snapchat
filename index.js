@@ -824,7 +824,7 @@ Snapchat.prototype._getGoogleAuthToken = function (gmailEmail, gmailPassword, cb
         }
       }
 
-      return reject(new Error('Snapchat._getGoogleAuthToken unknown error this is a test'))
+      return reject(err)
     })
 
   }).nodeify(cb)
